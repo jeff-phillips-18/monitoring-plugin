@@ -1,0 +1,20 @@
+{
+  "name": "monitoring-plugin",
+  "version": "1.0.0",
+  "dependencies": {
+    "@console/pluginAPI": "*"
+  },
+  "customProperties": {
+    "console": {
+      "displayName": "OpenShift console monitoring plugin",
+      "description": "This plugin adds the monitoring UI to the OpenShift web console"
+    }
+  },
+  "extensions": [],
+  "registrationMethod": "callback",
+  "baseURL": "/api/plugins/monitoring-plugin/",
+  "loadScripts": [
+    "plugin-entry.js"
+  ],
+  "buildHash": "c5fba601eb41ea15e7181c048a322e85"
+}

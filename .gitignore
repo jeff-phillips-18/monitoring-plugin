@@ -5,12 +5,10 @@ web/cypress/screenshots/
 web/cypress/export-env.sh
 web/screenshots/
 web/cypress/videos/
-web/dist/
 web/node_modules/
 plugin-backend
 # Leave these permanently for backwards compatability for backporting
 node_modules/
-dist/
 .devspace
 web/po-files/
 .claude/commands/configs
